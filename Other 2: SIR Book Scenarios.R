@@ -1,5 +1,5 @@
 #23/02/2021
-#This contains various scenarios from the book - not necessarily going to be included in final report
+#This contains various scenarios from the book - not necessarily going to be included in final report.
 
 
 install.packages("epimdr")
