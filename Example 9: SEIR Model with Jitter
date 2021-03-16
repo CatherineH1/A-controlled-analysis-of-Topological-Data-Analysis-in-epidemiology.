@@ -1,4 +1,4 @@
-#8.5 SEIR with Error
+SEIR with Error
 seirmod = function(t, y, parms) {
   S = y[1]
   E = y[2]
@@ -48,26 +48,3 @@ for (i in 1:1){
   p1 <- hom_matrix[hom_matrix$persistent == '1',] 
   homology <- rbind.data.frame(homology,p1) 
 }
-
-
-average_list_flute <- c()
-for (i in 1:30) {
-  Flute_homology <- data.frame()
-  
-  flute_A4_matrix <- data.matrix(OnePeakData[i,])
-  tak <- buildTakens(flute_A4_matrix,2,10)
-  hom <- calculate_homology(tak,return_df = TRUE) 
-  hom_matrix <- calculate_homology(tak,return_df = FALSE) 
-  hom <- hom %>%
-    mutate(persistence = death-birth) %>%
-    mutate(persistent = ifelse(persistence > 19000, 1,0))
-  hom_matrix <- data.frame(hom) %>% select(dimension, persistent)
-  hom_matrix <- as.data.frame(hom_matrix) 
-  p1 <- hom_matrix[hom_matrix$persistent == '1',] 
-  Flute_homology<-rbind.data.frame(Flute_homology,p1)
-  avg <- nrow(Flute_homology)
-  average_list_flute <- append(average_list_flute,avg)
-}
-avg_betti_number_flute <- sum(average_list_flute)/length(average_list_flute)
-avg_betti_number_flute
-
