@@ -1,3 +1,4 @@
+#Analyse different time intervals in outbreak to examine before and after.
 #Load required libraries
 
 library(ggplot2)
