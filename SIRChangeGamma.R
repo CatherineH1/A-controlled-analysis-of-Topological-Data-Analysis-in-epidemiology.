@@ -1,3 +1,4 @@
+#Previously called SIRYEARS
 #Changing value of gamma(the recovery rate) and showing the difference
 #Load required libraries
 
