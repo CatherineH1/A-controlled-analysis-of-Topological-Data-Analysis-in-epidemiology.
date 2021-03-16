@@ -1,3 +1,4 @@
+#Changing value of beta(the infection rate) and showing the difference
 #Load required libraries
 
 library(ggplot2)
