@@ -1,4 +1,4 @@
-#Variant
+#Variant in most basic model - not sure if this is useful
 #20/02/2021
 
 #Load required libraries
