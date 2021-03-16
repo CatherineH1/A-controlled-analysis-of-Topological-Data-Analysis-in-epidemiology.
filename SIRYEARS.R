@@ -1,4 +1,4 @@
-#Changing value of gamma and showing difference in homology
+#Changing value of gamma(the recovery rate) and showing the difference
 #Load required libraries
 
 library(ggplot2)
