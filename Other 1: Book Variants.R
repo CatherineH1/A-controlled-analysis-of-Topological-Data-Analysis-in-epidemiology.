@@ -1,4 +1,4 @@
-#Another example from the book
+#Another example from the book.
 #Not useful for our project
 library(epimdr)
 library(deSolve)
