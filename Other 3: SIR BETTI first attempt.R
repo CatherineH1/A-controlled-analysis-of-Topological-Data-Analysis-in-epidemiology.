@@ -1,3 +1,4 @@
+#First attempt at betti numbers - look at classification example for completion of this.
 #Load required libraries
 
 library(ggplot2)
