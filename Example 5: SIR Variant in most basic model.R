@@ -1,4 +1,4 @@
-#Variant in most basic model - not sure if this is useful
+#Variant in most basic model - not sure if this is useful for project.
 #20/02/2021
 
 #Load required libraries
