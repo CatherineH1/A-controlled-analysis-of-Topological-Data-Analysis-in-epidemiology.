@@ -35,7 +35,7 @@ for (i in 1:10){
   S <- initial_values[1]
   I <- initial_values[2]
   R <- initial_values[3]
-  parameters=c(gamma=0.2*365,beta=0.45*365,sigma=1/(2))
+  parameters=c(gamma=0.3*365,beta=0.45*365,sigma=1/(2))
   
   # Time points
   
