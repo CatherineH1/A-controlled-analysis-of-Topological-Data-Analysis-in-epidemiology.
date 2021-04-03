@@ -1,4 +1,7 @@
 #Shows one peak
+#this is explanation example and the R0 example.
+
+
 #Load required libraries
 library(ggplot2)
 library(deSolve)
@@ -85,3 +88,7 @@ for (i in 1:5){
   p1 <- hom_matrix[hom_matrix$persistent == '1',] 
   homology <- rbind.data.frame(homology,p1) 
 }
+
+pers <- calculate_homology(a)
+plot_barcode(pers)
+plot_persist(pers)
