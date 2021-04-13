@@ -1,5 +1,5 @@
 #10/03/2021
-#classification attempt - needs to be finished
+#classification attempt 
 #Load required libraries
 
 library(ggplot2)
