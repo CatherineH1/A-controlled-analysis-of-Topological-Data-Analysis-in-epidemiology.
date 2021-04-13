@@ -1,3 +1,4 @@
+#Permuatation test attempt
 seirmod2=function(t, y, parms){
   S=y[1]
   E=y[2]
